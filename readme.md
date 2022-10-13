@@ -1,5 +1,5 @@
 # xformers-compiled
-_xformers compiled for specific graphics cards_
+_xformers compiled for specific graphics cards._
 
 ### How to Use
 1. Find your graphics card model (`nvidia-smi`).
