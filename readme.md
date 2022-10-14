@@ -1,6 +1,8 @@
 # xformers-compiled
 _xformers compiled for specific graphics cards._
 
+These wheels were build on and for Paperspace Gradient machines.
+
 ### How to Use
 1. Find your graphics card model (`nvidia-smi`).
 2. Get the link from the table for the correct file.
