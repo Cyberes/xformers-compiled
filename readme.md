@@ -9,12 +9,9 @@ These wheels were build on and for Paperspace Gradient machines.
 3. Do `pip install <url of .whl file>`
 
 ### Files
+
+Go to the [releases tab](https://github.com/Cyberes/xformers-compiled/releases) and pick the latest version for your card. Make sure to save the file as `xformers-0.0.14.dev0-cp37-cp37m-linux_x86_64.whl` or else pip will fail to install it.
+
 |GPU Model|URL|
 |-|-|
-|A100|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/A100/xformers-0.0.14.dev0-cp39-cp39-linux_x86_64.whl`|
-|A6000|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/A6000/xformers-0.0.14.dev0-cp39-cp39-linux_x86_64.whl`|
-|A4000|`https://github.com/Cyberes/xformers-compiled/releases/download/A4000-Oct-28-2022/paperspce-a4000-xformers-0.0.14.dev0-cp39-cp39-linux_x86_64.whl`<br />The `/a4000` directory is left for backwards compatibility.|
-|P5000|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/P5000/xformers-0.0.14.dev0-cp39-cp39-linux_x86_64.whl`|
-|RTX 4000|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/RTX%204000/xformers-0.0.14.dev0-cp39-cp39-linux_x86_64.whl`|
-|RTX 5000|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/RTX%205000/xformers-0.0.14.dev0-cp39-cp39-linux_x86_64.whl`|
 |Various other cards|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/various/xformers-0.0.14.dev0-cp37-cp37m-linux_x86_64.whl`|
