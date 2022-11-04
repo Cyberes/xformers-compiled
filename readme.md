@@ -10,8 +10,6 @@ These wheels were build on and for Paperspace Gradient machines.
 
 ### Files
 
-**The files in the repository are likely out of date and are left for backwards-compatibility . Use the files in releases instead.** 
-
 Go to [releases](https://github.com/Cyberes/xformers-compiled/releases) and pick the latest version for your card. Make sure to save the file as `xformers-0.0.14.dev0-cp37-cp37m-linux_x86_64.whl` or else pip will fail to install it.
 
 |GPU Model|URL|
