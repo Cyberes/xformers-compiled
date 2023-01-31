@@ -11,8 +11,7 @@ XFORMERS_DISABLE_FLASH_ATTN=1 NVCC_FLAGS="--use_fast_math -DXFORMERS_MEM_EFF_ATT
 If you get error messages talking about missing xformers modules, use the `full` version of the wheel located in the card's folder. 
 ### How to Use
 1. Find your graphics card model (`nvidia-smi`).
-2. Get the link from the table for the correct file.
-3. Do `pip install <url of .whl file>`
+2. Do `pip install <url of .whl file>`
 
 
 There are also files are in the Releases section (older versions).
