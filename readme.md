@@ -1,17 +1,18 @@
 # xformers-compiled
 _xformers compiled for specific graphics cards._
 
-These wheels were build on and for Paperspace Gradient machines.
+These wheels were build on and for Paperspace Gradient machines for use with [Engineer-of-Stuff/stable-diffusion-paperspace](https://github.com/Engineer-of-Stuff/stable-diffusion-paperspace).
 
+Xformers was compiled without a few features to make the binary smaller and compile time shorter:
+```
+XFORMERS_DISABLE_FLASH_ATTN=1 NVCC_FLAGS="--use_fast_math -DXFORMERS_MEM_EFF_ATTENTION_DISABLE_BACKWARD"
+```
+
+If you get error messages talking about missing xformers modules, use the `full` version of the wheel located in the card's folder. 
 ### How to Use
 1. Find your graphics card model (`nvidia-smi`).
 2. Get the link from the table for the correct file.
 3. Do `pip install <url of .whl file>`
 
-### Files
 
-Go to [releases](https://github.com/Cyberes/xformers-compiled/releases) and pick the latest version for your card. Make sure to save the file as `xformers-0.0.14.dev0-cp37-cp37m-linux_x86_64.whl` or else pip will fail to install it.
-
-|GPU Model|URL|
-|-|-|
-|Various other cards|`https://raw.githubusercontent.com/Cyberes/xformers-compiled/main/various/xformers-0.0.14.dev0-cp37-cp37m-linux_x86_64.whl`|
+There are also files are in the Releases section (older versions).
